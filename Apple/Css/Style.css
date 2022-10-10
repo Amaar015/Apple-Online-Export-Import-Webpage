@@ -237,6 +237,22 @@ button{
   margin-top: 2rem;
 }
 
+.product{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
+}
+
+.product h1{
+  text-align: center;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+  font-size: 3.5rem;
+  color: #130f40;
+}
+
+
 
 @media (max-width:1004px){
       
@@ -327,6 +343,12 @@ button{
 
 
 }
+@media (max-width:510px){
+  .history .images{
+    
+          width: 350px;
+         }
+}
 
 @media (max-width:455px){
   
@@ -335,6 +357,7 @@ button{
     font-size: 22px;
     width: 275px;
       }  
+
 }
 
 @media (max-width:430px){
@@ -369,6 +392,12 @@ button{
   
 }
 
+@media (max-width:350px){
+  .history .images{
+    
+          width: 270px;
+         }
+}
 
 @media (max-width:310px){
       
