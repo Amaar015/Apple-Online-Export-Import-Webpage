@@ -169,7 +169,7 @@ body{
   align-items: center;
   }
  article{
-  margin: 4rem 2rem;
+  margin: 0rem 2rem;
   width:300px;
   height: 300px;
   background:#fff;
@@ -213,19 +213,19 @@ button{
   height: 100%;
   overflow: hidden;
 }
-.history .content{
+.history .content_history{
   margin:0 2rem;  
   width: 500px;
   height: 500px;
 }
 
-.content h1{
+.content_history h1{
   margin-top: 4rem;
   font-size: 35px;
   font-weight: 800;
 }
 
-.content p{
+.content_history p{
   width: 91%;
   margin-top: 1rem;
   margin-left: 1rem;
@@ -233,14 +233,13 @@ button{
   color: gray;
 }
 
-.history .content #btn{
+.history .content_history #btn{
   margin-top: 2rem;
 }
 
 .product{
-  height: 100vh;
+  height: 50vh;
   width: 100%;
-  position: relative;
 
 }
 
@@ -252,8 +251,64 @@ button{
   color: #130f40;
 }
 
+.product p{
+  text-align: center;
+  margin-top: -3rem;
+  font-size: 1.5rem;
+  color: #130f40;
+}
 
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 100vw; */
+  /* height:10rem; */
+  justify-content:center;
+  /* align-items: center; */
+  padding-top: 4rem;
+}
 
+.container .box{
+  width: 200px;
+  height: 300px;
+  margin:0rem 2rem;  
+
+}
+
+.container .box img{
+  width: 100%;
+  height: 60%;
+  
+}
+.container .box h2{
+  margin:1.5rem 0.5rem;
+  font-size: 20px;
+}
+.container .box div{
+  font-size: 18px;
+  margin:-0.5rem 1rem;
+  color: gold;
+}
+.container .box .btn{
+  margin: 1.5rem 0rem;
+} 
+
+@media(max-width:1039px){
+  .product{
+    margin-top: 30rem;
+  }
+
+  .container .box{
+    margin-top:3.5rem;
+  }
+}
+
+@media(max-width:1020px){
+       
+  article{
+          margin-top: 2rem;
+        }
+}
 @media (max-width:1004px){
       
 .Home .content{
@@ -289,7 +344,7 @@ button{
   margin-top: -10rem;
   }
    .brand{
-    margin-top: 12rem;
+    margin-top: 25rem;
   }
   
   }
@@ -348,7 +403,12 @@ button{
     
           width: 350px;
          }
-}
+
+           .product{
+    margin-top:43rem;
+  }
+
+        }
 
 @media (max-width:455px){
   
@@ -357,6 +417,9 @@ button{
     font-size: 22px;
     width: 275px;
       }  
+      .product{
+        margin-top:50rem;
+      }   
 
 }
 
@@ -368,6 +431,7 @@ button{
     margin: 0 0.2rem;
   } 
 
+        
     
     .Home .content{
       width: 300px;
@@ -388,8 +452,15 @@ button{
       height: 300px;
     }
     
-
   
+  
+}
+
+@media(max-width:400px){
+  
+  .product{
+    margin-top:58rem;
+  }
 }
 
 @media (max-width:350px){
@@ -397,8 +468,27 @@ button{
     
           width: 270px;
          }
+         
+  .product{
+    margin-top:68rem;
+  }
+    
 }
 
+@media(max-width:330px){
+  
+  .product{
+    margin-top:70rem;
+  }
+}
+
+
+@media(max-width:300px){
+  
+  .product{
+    margin-top:80rem;
+  }
+}
 @media (max-width:310px){
       
   .Home .content{
@@ -418,7 +508,9 @@ button{
     width: 270px;
     height: 270px;
   }
-
+  .brand{
+    margin-top: 5rem;
+  }
   .brand h1{
     margin-left: 5%;
   }
