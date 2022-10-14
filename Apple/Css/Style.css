@@ -341,8 +341,72 @@ button{
   border-top: 1px solid;
   border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
 }
+
+.events{
+  height: 50vh;
+  width: 100%;
+
+}
+
+.events h1{
+  text-align: center;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+  font-size: 3.5rem;
+  color: #130f40;
+}
+
+.events p{
+  text-align: center;
+  margin-top: -3rem;
+  font-size: 1.5rem;
+  color: #130f40;
+}
+
+.events .box{
+  width: 300px;
+  /* overflow: hidden; */
+}
+
+.events .box .date{
+  font-size: 2rem;
+  font-weight: bold;
+  margin:4rem 2rem
+}
+.events .box h1{
+ color: #111;
+  font-size: 2.8rem;
+  margin-top: -6rem;
+  margin-left: -1rem;
+}
+.events .box p{
+   line-height: 3rem;
+   font-size: 16px;
+}
+
+.events .box img{
+  width: 100%;
+  height: 80%;
+  border-radius: 10px;
+}
+.events .box .heading button{
+  margin:1rem 6rem;
+}
+.events .box .heading h4{
+          color: #130f40;
+          margin:0.2rem 6rem;
+}
+.events .box .heading h2{
+  color:#111;
+  margin:1rem 4rem;
+  font-size: 1.8rem;
+}
+
+
 @media(max-width:1260px){
   .product{
+
+
     margin-top: 20rem;
   }
   .query{
