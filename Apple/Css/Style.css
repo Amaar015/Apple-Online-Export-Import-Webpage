@@ -209,7 +209,7 @@ section {
      /* border: 1rem solid rgba(0,0,0,0.1); */
      padding: 2rem;
      margin: 2rem;
-     width: 28rem;
+     width: 23rem;
      border-radius: 0.5rem;
      box-shadow: 0.5rem 1rem rgba(0,0,0,0.1);
      text-align: center;
@@ -348,6 +348,115 @@ section {
      /* padding: 2rem 0; */
 }
 
+/* team section */
+
+
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.skills{
+  /* background: black; */
+  height: 400px;
+}
+.skills .carousel .card{
+  background:#130f40;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.skills .carousel .card:hover{
+  background: #ff7800;
+}
+.skills .carousel .card .box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.skills .carousel .card:hover .box{
+  transform: scale(1.05);
+}
+.skills .carousel .card .text{
+  font-size: 18px;
+  font-weight: 500;
+  color: #999;
+  margin: 10px 0 7px 0;
+}
+.skills .carousel .card:hover  .text{
+
+  color:#130f40;
+}
+
+.skills .carousel .card img{
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ff7800;
+  transition: all 0.3s ease;
+}
+.skills .carousel .card:hover img{
+  border-color:#130f40;
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot{
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none!important;
+  border-radius: 50%;
+  border: 2px solid #ff7800!important;
+  transition: all 0.3s ease;
+}
+.owl-dot.active{
+  width: 35px;
+  border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: #ff7800!important;
+}
+
+@media(max-width:1005px){
+  .max-width{
+    max-width: 930px;
+    justify-content:space-around;
+}
+
+}
+
+@media (max-width: 991px) {
+  .max-width{
+      padding: 0 50px;
+  }}
+
+  @media(max-width:947px){
+    .max-width{
+      max-width: 930px;
+  }
+  }
+  
+@media (max-width: 690px) {
+  .max-width{
+      padding: 0 23px;
+  }
+}
+
+
+@media (max-width: 325px) {
+  .max-width{
+    width: 260px;
+  }
+}
 #news{
   height: 30rem;
 }
